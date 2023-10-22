@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.flash{
+    background-color: white;
+}
+@media screen and (max-width: 376px) {
+    .btn{
+        max-height: 100px;
+        width: 100px;
+        border: 10px solid black;
+        border-radius: 20%;
+    }
+    
+}
